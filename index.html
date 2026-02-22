@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velora | Premium Product Positioning</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --velora-blue: #033b84;
+        --brand-font: "Libre Baskerville", serif;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      .velora-text {
+        font-family: var(--brand-font);
+      }
+      .bg-velora {
+        background-color: var(--velora-blue);
+      }
+      .text-velora {
+        color: var(--velora-blue);
+      }
+      .border-velora {
+        border-color: var(--velora-blue);
+      }
+
+      .comparison-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-bottom: 3rem;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-900">
+    <nav class="sticky top-0 z-50 bg-white shadow-sm">
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center space-x-3">
+          <img src="images/velora.png" alt="Velora Logo" class="h-10 w-10" />
+          <span
+            class="velora-text text-2xl font-bold tracking-tight text-velora"
+            >Velora</span
+          >
+        </div>
+        <div
+          class="hidden md:flex space-x-8 text-xs font-semibold uppercase tracking-widest items-center"
+        >
+          <a href="#portfolio" class="hover:text-velora transition">Results</a>
+          <a href="#services" class="hover:text-velora transition">Services</a>
+          <a
+            href="#contact"
+            class="bg-velora text-white px-6 py-2 rounded-md hover:opacity-90 transition"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-velora text-white py-24 px-6 relative overflow-hidden">
+      <div class="max-w-4xl mx-auto text-center relative z-10">
+        <p
+          class="text-blue-200 uppercase tracking-[0.4em] text-xs font-bold mb-6"
+        >
+          Not just visuals. Results.
+        </p>
+        <h1 class="velora-text text-4xl md:text-6xl mb-8 leading-tight">
+          Design is not decoration. <br /><span class="italic opacity-80"
+            >It is positioning.</span
+          >
+        </h1>
+        <p
+          class="text-lg text-blue-100 mb-10 max-w-2xl mx-auto font-light leading-relaxed"
+        >
+          When products don't look premium, customers assume they aren't. We
+          create structured visuals that build instant trust.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a
+            href="#portfolio"
+            class="bg-white text-velora px-8 py-4 rounded font-bold hover:bg-blue-50 transition"
+            >View Comparisons</a
+          >
+          <a
+            href="https://www.facebook.com/61587951763169"
+            class="border border-blue-300 px-8 py-4 rounded font-bold hover:bg-white/10 transition"
+            >Contact Velora</a
+          >
+        </div>
+      </div>
+      <div
+        class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none"
+      >
+        <svg width="100%" height="100%">
+          <rect width="100%" height="100%" fill="url(#grid)" />
+          <defs>
+            <pattern
+              id="grid"
+              width="40"
+              height="40"
+              patternUnits="userSpaceOnUse"
+            >
+              <path
+                d="M 40 0 L 0 0 0 40"
+                fill="none"
+                stroke="white"
+                stroke-width="1"
+              />
+            </pattern>
+          </defs>
+        </svg>
+      </div>
+    </header>
+
+    <section id="portfolio" class="py-24 px-6 max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="velora-text text-4xl text-velora mb-4">
+          The Impact of Structure
+        </h2>
+        <p class="text-slate-500 uppercase tracking-widest text-sm">
+          Case Studies: Before vs. Velora Design
+        </p>
+      </div>
+
+      <div class="space-y-24">
+        <div class="grid md:grid-cols-5 gap-8 items-center">
+          <div class="md:col-span-3 space-y-4">
+            <div class="comparison-grid">
+              <div class="space-y-2">
+                <span class="text-[10px] font-bold uppercase text-slate-400"
+                  >Before</span
+                >
+                <img
+                  src="images/akbayB.png"
+                  class="rounded shadow border border-slate-200"
+                  alt="Akbay Before"
+                />
+              </div>
+              <div class="space-y-2">
+                <span class="text-[10px] font-bold uppercase text-velora"
+                  >After</span
+                >
+                <img
+                  src="images/akbayA.png"
+                  class="rounded shadow-xl border-2 border-velora"
+                  alt="Akbay After"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="md:col-span-2">
+            <h3 class="velora-text text-2xl mb-4 text-velora">AKBAY PH</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Improved this photo to look high-quality using simple, clean
+              edits.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-5 gap-8 items-center">
+          <div class="md:col-span-2 order-2 md:order-1">
+            <h3 class="velora-text text-2xl mb-4 text-velora">Satchel Tile</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Turned this simple satchel tile into a clean, high-quality product
+              tile.
+            </p>
+          </div>
+          <div class="md:col-span-3 order-1 md:order-2">
+            <div class="comparison-grid">
+              <div class="space-y-2">
+                <span class="text-[10px] font-bold uppercase text-slate-400"
+                  >Before</span
+                >
+                <img
+                  src="images/satchelB.png"
+                  class="rounded shadow border border-slate-200"
+                  alt="Satchel Before"
+                />
+              </div>
+              <div class="space-y-2">
+                <span class="text-[10px] font-bold uppercase text-velora"
+                  >After</span
+                >
+                <img
+                  src="images/satchelA.png"
+                  class="rounded shadow-xl border-2 border-velora"
+                  alt="Satchel After"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-5 gap-8 items-center">
+          <div class="md:col-span-3 space-y-4">
+            <div class="comparison-grid">
+              <div class="space-y-2">
+                <span class="text-[10px] font-bold uppercase text-slate-400"
+                  >Before</span
+                >
+                <img
+                  src="images/pusoB.png"
+                  class="rounded shadow border border-slate-200"
+                  alt="Puso Before"
+                />
+              </div>
+              <div class="space-y-2">
+                <span class="text-[10px] font-bold uppercase text-velora"
+                  >After</span
+                >
+                <img
+                  src="images/pusoA.png"
+                  class="rounded shadow-xl border-2 border-velora"
+                  alt="Puso After"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="md:col-span-2">
+            <h3 class="velora-text text-2xl mb-4 text-velora">Puso</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Changed a simple raw photo into a clear layout, organized
+              Christmas special that highlights your products and brand.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-5 gap-8 items-center">
+          <div class="md:col-span-2 order-2 md:order-1">
+            <h3 class="velora-text text-2xl mb-4 text-velora">
+              Review Visuals
+            </h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Turned plain text and screenshots into clean, convincing social
+              proof that makes buyers trust your brand.
+            </p>
+          </div>
+          <div class="md:col-span-3 order-1 md:order-2">
+            <div class="comparison-grid">
+              <div class="space-y-2">
+                <span class="text-[10px] font-bold uppercase text-slate-400"
+                  >Raw Feedback</span
+                >
+                <img
+                  src="images/reviewsB.png"
+                  class="rounded shadow border border-slate-200"
+                  alt="Reviews Before"
+                />
+              </div>
+              <div class="space-y-2">
+                <span class="text-[10px] font-bold uppercase text-velora"
+                  >Trust-Building Layout</span
+                >
+                <img
+                  src="images/reviewsA.png"
+                  class="rounded shadow-xl border-2 border-velora"
+                  alt="Reviews After"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="services"
+      class="bg-white py-24 px-6 border-y border-slate-200"
+    >
+      <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-12">
+          <div class="border-l-2 border-velora pl-6">
+            <h4 class="velora-text text-xl mb-6 text-velora font-bold">
+              Marketplace Visuals
+            </h4>
+            <ul class="space-y-3 text-sm text-slate-600">
+              <li class="flex items-start">
+                <span class="text-velora mr-2">✓</span>
+                Thumbnails designed for Shopee, Lazada, and Shopify
+              </li>
+              <li class="flex items-start">
+                <span class="text-velora mr-2">✓</span>
+                Clear product titles
+              </li>
+              <li class="flex items-start">
+                <span class="text-velora mr-2">✓</span>
+                Structured layouts to maximize CTR
+              </li>
+            </ul>
+          </div>
+
+          <div class="border-l-2 border-velora pl-6">
+            <h4 class="velora-text text-xl mb-6 text-velora font-bold">
+              Credibility Assets
+            </h4>
+            <ul class="space-y-3 text-sm text-slate-600">
+              <li class="flex items-start">
+                <span class="text-velora mr-2">✓</span>
+                Clean testimonial layouts
+              </li>
+              <li class="flex items-start">
+                <span class="text-velora mr-2">✓</span>
+                Organized review visuals
+              </li>
+              <li class="flex items-start">
+                <span class="text-velora mr-2">✓</span>
+                Designs that turn skeptics into buyers
+              </li>
+            </ul>
+          </div>
+
+          <div class="border-l-2 border-velora pl-6">
+            <h4 class="velora-text text-xl mb-6 text-velora font-bold">
+              Promo Graphics
+            </h4>
+            <ul class="space-y-3 text-sm text-slate-600">
+              <li class="flex items-start">
+                <span class="text-velora mr-2">✓</span>
+                Seasonal sale graphics
+              </li>
+              <li class="flex items-start">
+                <span class="text-velora mr-2">✓</span>
+                Limited edition visuals
+              </li>
+              <li class="flex items-start">
+                <span class="text-velora mr-2">✓</span>
+                Urgency-driven promotional designs
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-24 px-6 bg-slate-50">
+      <div
+        class="max-w-4xl mx-auto bg-velora rounded-2xl p-12 text-white text-center shadow-2xl"
+      >
+        <h2 class="velora-text text-3xl mb-6 italic text-blue-200">
+          Founding Client Offer
+        </h2>
+        <p class="mb-10 text-lg opacity-90">
+          We are currently offering a special rate as we build additional case
+          studies. Only 1 project accepted per day.
+        </p>
+        <div
+          class="flex flex-wrap justify-center gap-8 mb-12 text-sm uppercase tracking-widest font-bold"
+        >
+          <span class="flex items-center">✓ Introductory Price</span>
+          <span class="flex items-center">✓ Portfolio Feature</span>
+          <span class="flex items-center">✓ Full Attention</span>
+        </div>
+        <a
+          href="https://www.facebook.com/61587951763169"
+          class="bg-white text-velora px-12 py-4 rounded-full font-bold text-lg hover:shadow-lg transition transform hover:-translate-y-1 inline-block"
+          >Secure Your Slot Now</a
+        >
+      </div>
+    </section>
+
+    <footer id="contact" class="bg-slate-900 text-slate-400 py-16 px-6">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between">
+        <div class="mb-12 md:mb-0">
+          <div class="flex items-center space-x-3 mb-6">
+            <img
+              src="images/velora.png"
+              alt="Velora Logo"
+              class="h-8 w-8 brightness-0 invert"
+            />
+            <span class="velora-text text-2xl text-white">Velora</span>
+          </div>
+          <p class="max-w-xs text-sm">
+            Positioning brands for success through structured, high-conversion
+            design.
+          </p>
+        </div>
+        <div class="space-y-4">
+          <h5 class="text-white font-bold uppercase text-xs tracking-widest">
+            Connect with Us
+          </h5>
+          <div class="flex flex-col space-y-2 text-sm">
+            <a
+              href="https://www.facebook.com/61587951763169"
+              class="hover:text-white transition"
+              >Facebook</a
+            >
+            <a
+              href="https://www.instagram.com/velora.design.ph/"
+              class="hover:text-white transition"
+              >Instagram</a
+            >
+            <a
+              href="https://www.tiktok.com/@velora_046"
+              class="hover:text-white transition"
+              >TikTok</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-16 pt-8 border-t border-slate-800 text-xs">
+        © 2026 VELORA DESIGN PH. ALL RIGHTS RESERVED.
+      </div>
+    </footer>
+  </body>
+</html>
